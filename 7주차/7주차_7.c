@@ -1,4 +1,4 @@
-ï»¿#include <stdio.h>
+#include <stdio.h>
 
 void main()
 {
@@ -8,8 +8,8 @@ void main()
 
   for (int i = 0; i < 5; i++)
   {
-	  sum += price[i];
+    sum += price[i];
   }
   price_avg = sum / 5;
-  printf("í‰ê·  ê°€ê²©ì€ %dìž…ë‹ˆë‹¤.\n", price_avg);
+  printf("ÀüÃ¼°¡°ÝÀÇ Æò±ÕÀº %d¿ø ÀÔ´Ï´Ù.\n", price_avg);
 }
